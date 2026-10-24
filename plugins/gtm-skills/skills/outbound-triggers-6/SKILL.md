@@ -1,0 +1,150 @@
+---
+name: outbound-triggers-6
+title: Outbound triggers
+description: "Use this skill when running pure cold outbound with no prior signal, choosing an outbound premise — CXO Passdown, Groundswell, Multi-Persona, or classic cold outreach — building top-down or bottom-up campaigns, or multi-threading a buying committee across an account."
+category: Signals
+---
+
+> [!NOTE]
+> **Per chi usa questa skill in Italia**
+> La skill è pensata per il mercato americano: adatta numeri, canali e toni al mercato italiano. Nelle bozze non mettere i nomi delle aziende che gli autori citano come esempio (per esempio Frontal, Impactable, Neon Triforce). Se il cliente ha un GTM Brain nel repo warpig21/clienti, leggilo prima di usare la skill: quello che dice il Brain vale più di quello che dice la skill.
+
+# OUTBOUND Premises (6 Triggers)
+
+## 1. CXO Passdown
+
+**Strategy:** Start at the top, get passed down to the right person
+
+**Execution:**
+- Email C-level executive
+- Ask for direction to right person
+- Creates internal referral
+
+**Template:**
+```
+{{firstName}},
+
+I'm not sure if this lands on your desk or someone else's.
+
+We help [ICP] with [problem].
+
+Who should I be talking to about [topic] at {{company}}?
+```
+
+---
+
+## 2. To "Groundswell" for Info
+
+**Strategy:** Build internal champions before approaching decision maker
+
+**Execution:**
+- Target end-users and ICs
+- Provide value and resources
+- Build grassroots support
+
+---
+
+## 3. To "Groundswell" for Product-Placement
+
+**Strategy:** Get product in hands of end-users first
+
+**Execution:**
+- Free trials to ICs
+- Bottom-up adoption
+- Let usage drive demand
+
+---
+
+## 4. To DM Based on "Groundswell" Product-Placement
+
+**Strategy:** Use internal adoption as proof point for decision maker
+
+**Execution:**
+- Reference internal usage
+- Show adoption metrics
+- Convert to paid/enterprise
+
+**Template:**
+```
+{{firstName}},
+
+{{number}} people at {{company}} are already using [product].
+
+[Names/teams] have been active for [timeframe].
+
+Worth discussing how to scale this across the org?
+```
+
+---
+
+## 5. Multi-Persona (Cross-Departmental)
+
+**Strategy:** Coordinate outreach across multiple stakeholders
+
+**Execution:**
+- Map buying committee
+- Tailor message per role
+- Coordinate timing
+
+**Roles to target:**
+- Economic buyer (budget)
+- Technical buyer (evaluation)
+- End user (adoption)
+- Champion (internal advocate)
+
+---
+
+## 6. Typical "Cold Outbound"
+
+**Strategy:** Pure cold outreach with no prior signal
+
+**Execution:**
+- 1:1 personalization required
+- Pattern-interrupt opening
+- Heavy research investment
+
+**Messaging Approach:**
+```
+First Line: Core-Static Relevance (Lean on Pattern Interruptive Opener)
+Second Line: Core-Static Relevance ("We work with...")
+```
+
+---
+
+## Outbound Success Factors
+
+1. **Deep research** - Know the person and company
+2. **Pattern interrupt** - Stand out from generic emails
+3. **Clear relevance** - Why you, why now
+4. **Multi-channel** - Don't rely on email alone
+5. **Persistence** - Multiple touches required
+
+---
+
+## Combines with
+
+| Skill | Why |
+|-------|-----|
+| `outreach-4-categories` | Understand pure Outbound |
+| `personalization-6-buckets` | Deep research for 1:1 |
+| `personalization-hooks` | Create strong hooks |
+| `atl-btl-messaging` | CXO Passdown for ATL |
+
+## Example prompts
+
+```
+Create a CXO Passdown email for targeting VP Engineering at enterprise companies.
+```
+
+```
+How do I build internal champions using Groundswell strategy?
+```
+
+```
+Write a Multi-Persona campaign targeting both CFO and Finance Manager.
+```
+
+
+---
+
+_Part of [Frontal](https://frontal.so) — free, open GTM skills for your AI agent. [Browse the library →](https://frontal.so/resources/skills)_
